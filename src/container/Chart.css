@@ -1,0 +1,17 @@
+.react-chart {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: #222;
+  height: 100%;
+}
+.react-chart.show {
+  opacity: 1;
+  visibility: visible;
+}

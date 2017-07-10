@@ -1,0 +1,49 @@
+.Board-header {
+  background-color: #222;
+  height: 20px;
+  padding: 5px;
+  color: white;
+}
+
+.sprint-board {
+  display: flex;
+  padding: 5px;
+}
+.col {
+  flex: 1;
+  overflow: hidden;
+}
+.pipe {
+    background: #ccc;
+    width: calc(100% - 20px);
+    height: 100%;
+    margin: 10px;
+    padding-top: 5px;
+    display: block;
+    position: relative;
+}
+h2, h4 {
+    text-align: center;
+    margin:5px;
+    font-size: 16px;
+}
+h1 {
+    font-size: 22px;
+    margin:0;
+
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    background: #222;
+    color:#fff;
+}
+.spinner {
+    display: block;
+    width: 120px;
+    position: relative;
+    margin: auto;
+    margin-top: 400px;
+}
